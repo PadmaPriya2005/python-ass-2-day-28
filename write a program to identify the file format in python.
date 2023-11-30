@@ -1,0 +1,11 @@
+file=input()
+if file.endswith('.jpeg'):
+    print("photo document")
+elif file.endswith('.doc'):
+    print("word document")
+elif file.endswith('.xls'):
+    print("Excel document")
+elif file.endswith('.ppt'):
+    print("powerpoint document")
+else:
+    print("invalid document")
